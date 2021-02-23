@@ -8,9 +8,9 @@ public class Lottery {
 
 	public static void main(String[] args) {
 		Random ran = new Random();
-	int randomChoice = ran.nextInt(60) + 1;
+	int num1 = ran.nextInt(60) + 1;
 	
-	JOptionPane.showMessageDialog(null, "Your lotery numbers are: " + randomChoice);
+	JOptionPane.showMessageDialog(null, "Your lotery numbers are: " + num1);
 	}
 
 }
